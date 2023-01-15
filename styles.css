@@ -42,6 +42,14 @@ header > ul a {
     font-weight: 300;
 }
 
+.sign-up {
+    background-color: #3882f6;
+    padding: 6px 18px;
+    color: #f9faf8;
+    font-weight: 500;
+    border-radius: 8px;
+}
+
 #hero {
     display: flex;
     gap: 64px;
@@ -64,14 +72,6 @@ header > ul a {
     color: #e5e7eb;
     margin: 0;
     margin-bottom: 16px;
-}
-
-#hero a {
-    background-color: #3882f6;
-    padding: 6px 18px;
-    color: #f9faf8;
-    font-weight: 500;
-    border-radius: 8px;
 }
 
 #hero > img {
