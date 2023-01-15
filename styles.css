@@ -41,3 +41,39 @@ header > ul a {
     font-size: 18px;
     font-weight: 300;
 }
+
+#hero {
+    display: flex;
+    gap: 64px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px var(--content-width);
+    background-color: #1f2937;
+}
+
+#hero h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    line-height: 48px;
+    color: #f9faf8;
+    margin: 0;
+}
+
+#hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+#hero a {
+    background-color: #3882f6;
+    padding: 6px 18px;
+    color: #f9faf8;
+    font-weight: 500;
+    border-radius: 8px;
+}
+
+#hero > img {
+    width: 444px;
+}
