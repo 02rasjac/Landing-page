@@ -105,3 +105,24 @@ header > ul a {
     height: auto;
     border-radius: 5px;
 }
+
+#quote {
+    padding: 64px var(--content-width);
+    margin: 36px 0;
+    background-color: #e5e7eb;
+}
+
+#quote > blockquote {
+    font-size: 32px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#quote > figcaption {
+    text-align: end;
+    font-weight: bold;
+    font-size: large;
+}
