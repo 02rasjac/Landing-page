@@ -77,3 +77,31 @@ header > ul a {
 #hero > img {
     width: 444px;
 }
+
+#information {
+    padding: 0 var(--content-width);
+}
+
+#information > h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 36px 0;
+}
+
+#information > .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    text-align: center;
+    color: #444;
+}
+
+.card > img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
