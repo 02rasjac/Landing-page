@@ -72,7 +72,7 @@ header > ul a {
 #hero p {
     font-size: 18px;
     color: var(--text-color-secondary);
-    margin: 0;
+    margin-top: 8px;
     margin-bottom: 16px;
 }
 
